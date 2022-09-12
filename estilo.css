@@ -7,13 +7,14 @@ body {
 header{
     color: white; 
     text-align: center;
+    font: normal 50pt "Old English Text MT";
 }
 
 section{
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 90%;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
     color: black;
