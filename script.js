@@ -1,9 +1,9 @@
 /* Set the width of the side navigation to 250px */
 function openNav() {
-    document.getElementById("test").style.width = "500px";
+    document.getElementById("sidemainbar").style.width = "30%";
 }
   
 /* Set the width of the side navigation to 0 */
 function closeNav() {
-    document.getElementById("test").style.width = "0px";
+    document.getElementById("sidemainbar").style.width = "0px";
 }
