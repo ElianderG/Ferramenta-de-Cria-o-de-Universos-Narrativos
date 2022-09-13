@@ -12,13 +12,35 @@
     <header>
         Fecrun
     </header>  
-    <section>
-        <div>
-            <p>test</p>
-        </div> 
-    </section> 
     <section id="sidemainbar" class="sidenav" onmouseenter="openNav()" onmouseleave="closeNav()" >
         <a href="#">Calendário</a>
     </section>
+    <section>
+        <h1 style="text-align:center;"> Ferramenta de criação de Calendário</h1>
+        <div style="text-align: center;">
+            <p style="display: inline;">
+                Semanas serão regulares? 
+                <input type="checkbox" name="regularweek" id="regularweek" onchange="hidepara()" checked>
+                <h6 title="Regulares possuem sempre a mesma quantidade de dias, irregulares tem dias diferentes. Marque para regulares.">(?)</h6>
+            </p>
+            <div name="weekisregular" id="weekisregular">
+                <p>Quantos dias terão em uma semana? <input type="number" name="days" id="days"></p>
+            </div>
+            <p>Quantos meses terão em um ano?</p>
+            <p style="display: inline;">
+                Os meses serão regulares? 
+                <input type="checkbox" name="regularmonth" id="regularmonth">
+                <h6 title="Regulares possuem sempre a mesma quantidade de dias, irregulares tem dias diferentes. Marque para regulares.">(?)</h6>
+            </p>
+            
+            <p>Quantos dias terão um mês? <input type="number" name="days" id="days"></p>
+            <input type="button" value="ok" onclick="criarcalendario()">            
+        </div> 
+        <div style="text-align: center;">
+            <p style="display: inline;">
+                Seu ano está atualmente com <p style="display: inline;"><output type="number" name="daysperyear" id="daysperyear"></p> dias e <p style="display: inline;"><output type="number" name="weeksperyear" id="weeksperyear"> </output></p> semanas.
+            </p>
+        </div>
+    </section> 
 </body>
 </html>

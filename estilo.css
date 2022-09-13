@@ -26,6 +26,11 @@ footer{
     font-style: italic;
 }
 
+h6
+{
+  display: inline;
+}
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
